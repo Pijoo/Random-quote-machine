@@ -35,7 +35,5 @@ function createTweet(input) {
 
 $(document).ready(function() {
 	getQuote();
-	$('.trigger').click(function() {
-		getQuote();
-	})
+	$('.trigger').click(getQuote);
 });
